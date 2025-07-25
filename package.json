@@ -44,5 +44,10 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "overrides": {
+    "cross-spawn@<=7.0.5": "7.0.5",
+    "on-headers@<=1.1.0": "1.1.0",
+    "brace-expansion@<=1.1.12": "1.1.12"
   }
 }
